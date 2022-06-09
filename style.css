@@ -309,3 +309,46 @@ a:hover {
     flex-shrink: 0;
     border-radius: 40px;
 }
+
+@media only screen and (max-width: 768px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100vh;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .sidebar h1 {
+        text-align: center;
+    }
+
+    #sidebar-top,
+    #sidebar-bottom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+    #sidebar-top div ,
+    #sidebar-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+
+    #header-bottom-right button:first-child {
+        margin-left: 10px;
+    }
+
+    #content-right {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+}
