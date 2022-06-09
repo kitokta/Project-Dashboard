@@ -138,23 +138,31 @@ h3 {
 }
 
 #content-left {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-column: 1 / 2;
     display: grid;
     padding: 40px;
-    gap: 40px;
+    gap: 30px;
 }
 
 .cards {
     background-color: #cffafe;
-    height: 250px;
-    width: 360px;
+    height: 200px;
+    width: 100%;
     border-left: 10px solid #0891b2;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 4px 4px #a5f3fc;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
+.cards h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
 
 #content-right {
+
 }
