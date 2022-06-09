@@ -208,7 +208,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 15px;
+    padding: 15px 25px;
     box-shadow: 4px 4px #a5f3fc;
     border: 1px solid #a5f3fc;
 }
