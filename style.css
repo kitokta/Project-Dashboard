@@ -130,6 +130,10 @@ h3 {
     gap: 15px;
 }
 
+#sidebar-top div {
+    display: flex;
+    align-items: center;
+}
 
 #sidebar-bottom {
     display: flex;
