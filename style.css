@@ -130,9 +130,11 @@ h3 {
     gap: 15px;
 }
 
-#sidebar-top div {
+#sidebar-top div,
+#sidebar-bottom div {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 #sidebar-bottom {
@@ -285,7 +287,7 @@ h3 {
 }
 
 .sidebar-icon {
-    height: 40px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
     flex-shrink: 0;
 }
