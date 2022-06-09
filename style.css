@@ -166,7 +166,66 @@ h3 {
 
 /* RIGHT CONTENT BAR */
 #content-right {
+    padding: 20px;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr 0.5fr;
     gap: 20px;
+}
+
+#content-right-top {
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.announcements {
+    background-color: #cffafe;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    box-shadow: 4px 4px #a5f3fc;
+    border: 1px solid #a5f3fc;
+}
+
+.announcements div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#content-right-bottom {
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trending {
+    background-color: #cffafe;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    box-shadow: 4px 4px #a5f3fc;
+    border: 1px solid #a5f3fc;
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+}
+
+
+.profile h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.profile h4 {
+    font-size: 0.8rem;
 }
