@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -18,6 +21,7 @@ header {
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 20px 40px;
+    box-shadow: #0891b2;
 }
 
 .header-top {
