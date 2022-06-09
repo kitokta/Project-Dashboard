@@ -13,11 +13,6 @@ body {
     grid-template-rows: 1fr 5fr;
     font-family: 'Lato', sans-serif;
 }
-
-a:hover {
-    font-size: 26px;
-}
-
 /* HEADER */
 header {
     grid-column: 2 / 4;
@@ -88,7 +83,7 @@ h3 {
 #header-bottom-right {
     display: flex;
     grid-column: 2 / 3;
-    justify-self: end;
+    justify-self: flex-end;
     gap: 40px;
 }
 
@@ -100,6 +95,11 @@ h3 {
     color: #fff;
     border-radius: 25px;
     border: none;
+}
+
+#header-bottom-right button:hover {
+    width: max(52px, 102px);
+    height: 47px;
 }
 
 /* SIDEBAR */
@@ -122,6 +122,10 @@ h3 {
     color: #ecfeff;
     font-size: 25px;
     font-weight: 500;
+}
+
+a:hover {
+    font-size: 26px;
 }
 
 #sidebar-top {
