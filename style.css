@@ -15,7 +15,7 @@ header {
     grid-column: 2 / 4;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .header-top {
@@ -23,16 +23,23 @@ header {
     grid-template-columns: 2fr 1fr;
 }
 
+.searchbar {
+    display: flex;
+    gap: 10px;
+    width: max(60%, 200px);
+}
+
 h3 {
     grid-row: 1/2;
 }
+
 #searchbar {
     grid-row: 1 / 2;
     height: 30px;
     border-radius: 8px;
     background-color: lightgray;
     align-self: top;
-    width: max(60%, 150px);
+    width: 100%;
 }
 
 .header-left h6 {
