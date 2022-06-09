@@ -8,9 +8,11 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 }
 
+
+/* HEADER */
 header {
     grid-column: 2 / 4;
     display: grid;
@@ -23,10 +25,16 @@ header {
     grid-template-columns: 2fr 1fr;
 }
 
-.searchbar {
+#header-top-left {
     display: flex;
     gap: 10px;
-    width: max(60%, 200px);
+    width: max(100%, 300px);
+}
+
+#header-top-right {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end
 }
 
 h3 {
@@ -36,17 +44,18 @@ h3 {
 #searchbar {
     grid-row: 1 / 2;
     height: 30px;
-    border-radius: 8px;
+    border-radius: 15px;
     background-color: lightgray;
     align-self: top;
     width: 100%;
+    border: none;
 }
 
-.header-left h6 {
+.header-bottom h6 {
     grid-row: 2 / 3;
 }
 
-.header-left h2 {
+.header-bottom h2 {
     grid-row: 3 / 4;
 }
 
@@ -55,6 +64,30 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
 }
 
+#header-bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#header-bottom-right {
+    display: flex;
+    grid-column: 2 / 3;
+    justify-self: end;
+    gap: 40px;
+}
+
+#header-bottom-right button {
+    width: max(50px, 100px);
+    height: 45px;
+    align-self: center;
+    background-color: blue;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+}
+
+/* SIDEBAR */
 .sidebar {
     background-color: blue;
     grid-row: 1 / 3;
