@@ -89,9 +89,42 @@ h3 {
 
 /* SIDEBAR */
 .sidebar {
-    background-color: blue;
+    background-color: #0891b2;
+    color: #ecfeff;
     grid-row: 1 / 3;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
+
+.sidebar h1 {
+    font-size: 32px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ecfeff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#sidebar-top {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+
 
 #content-left {
     background-color: yellow;
