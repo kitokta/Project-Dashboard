@@ -224,6 +224,13 @@ a:hover {
     font-weight: bold;
 }
 
+.announcements div:nth-child(2) {
+    padding: 8px 0;
+    border-bottom: 2px solid #a5f3fc;
+    border-top: 2px solid #a5f3fc;
+}
+
+
 .announcements p {
     color: #6b7280;
 }
